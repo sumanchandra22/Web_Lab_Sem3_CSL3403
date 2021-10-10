@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style> 
+.main {
+            font-size:32px;
+            font-weight:bold;
+            text-align:center;
+}
+#box {
+            padding: 40px;
+            border: 30px solid rgb(130, 226, 229);
+            margin: 50px;
+            width: 500px;
+            font-size:20px;
+            
+}
+h1{
+background-color:#94f317
+}
+p{
+    font-size: 20px;
+}
+article{
+    margin-left: 30px;
+}
+article li {
+    font-size: 25px;
+}
+#content{
+background-color: yellow;
+}
+.property{
+    display: flex;
+    flex-direction: row;
+}
+</style>
+</head>
+<body>
+<h1>Demonstrating the Box Model</h1>
+<div class="property">
+    <div>
+
+  
+    <p>CSS box model is a container which contains multiple properties including borders, margin, padding and the content itself. It is used to create the design and layout of web pages. It can be used as a toolkit for customizing the layout of different elements. The web browser renders every element as a rectangular box according to the CSS box model. </p>
+    <article>
+        <p>Box-Model has multiple properties in CSS. Some of them are given below: </p>
+        <ul>
+            <li>Border</li>
+            <li>Margin</li>
+            <li>Padding</li>
+            <li>Content</li>
+        </ul>
+    </article>  
+</div>
+    <div id="box">Example of box-model having solid sky blue border of 30px , margin of 50px , pading of 40px </div>
+</div>
+
+<hr color="blue">
+<div id="content"><h4><center><font face="Tahoma" size="5" color="sky blue" bgcolor="green">The image given below gives some idea on Box model</font></center></h4></div>
+
+
+ <div class="property">
+    <img src="https://www.tutorialrepublic.com/lib/images/css-box-model.png" alt="box-model">
+     <article>
+         <h3>Multiple properties of Box-Model in CSS are given below : </h3>
+         <ul>
+             <li> <strong>Border Area: </strong>It is the area between the box’s padding and margin. Its dimensions are given by the width and height of border.</li>
+             <li> <strong>Margin Area: </strong>This area consists of space between border and margin. The dimensions of Margin area are the margin-box width and the margin-box height. It is useful to separate the element from its neighbors.</li>
+             <li> <strong>Padding Area: </strong>It includes the element’s padding. This area is actually the space around the content area and within the border box. Its dimensions are given by the width of the padding-box and the height of the padding-box.</li>
+             <li> <strong>Content Area: </strong> area consists of content like text, image, or other media content. It is bounded by the content edge and its dimensions are given by content box width and height.</li>
+         </ul>
+     </article>
+ </div>
+
+</body>
+</html>
